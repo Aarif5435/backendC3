@@ -5,6 +5,10 @@ const fs = require("fs");
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+app.get("/",(req,res)=>{
+    res.send("welcome to c3 evolution")
+})
+
 app.post("/user/create", (req,res)=>{
     fs.readFile("./data.json", { encoding: "utf-8" }, (err, data) => {
         const parsed = JSON.parse(data);
