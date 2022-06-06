@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "john",
+      "role": "candidate",
+      "age": 25,
+      "votes": 0,
+      "party": "partyA"
+    },
+    {
+      "id": 2,
+      "name": "addy",
+      "role": "voter",
+      "age": 23,
+      "username": "ad02",
+      "password": "1234"
+    },
+    {
+      "id": 3,
+      "name": "mike",
+      "role": "voter",
+      "age": 24,
+      "username": "mike09",
+      "password": "1256"
+    },
+    {
+      "id": 4,
+      "name": "dubbly",
+      "role": "candidate",
+      "age": 40,
+      "votes": 0,
+      "party": "partyB"
+    }
+  ]
+}
